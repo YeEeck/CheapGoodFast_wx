@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="view1">
+	<switch bindchange="switch1Change" checked="{{SwitchChecked1}}">Cheap</switch>
+	<text>\r\n</text>
+	<switch bindchange="switch2Change" checked="{{SwitchChecked2}}">Good</switch>
+	<text>\r\n</text>
+	<switch bindchange="switch3Change" checked="{{SwitchChecked3}}">Fast</switch>
+	<text>\r\n</text>
+</view>
